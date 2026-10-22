@@ -1,0 +1,86 @@
+{
+  "groups": [
+    {
+      "group": "Booking and quotes",
+      "items": [
+        {
+          "q": "How do I get a quote?",
+          "a": "Use the <a href=\"/request-quote/\">quote form</a>, send us a WhatsApp message or call +254 793 329 293. Tell us the service, your location, the size of the property and when you need it. Photos help us price accurately and quickly.",
+          "home": true
+        },
+        {
+          "q": "Are your quotes free?",
+          "a": "Yes. Quotes are free and there is no obligation to book. For larger jobs such as office moves, post-construction cleans or heavy pest infestations, we may need a site visit or a video call before giving a firm price.",
+          "home": true
+        },
+        {
+          "q": "How quickly can you come?",
+          "a": "It depends on the service and the time of month. Pest control and cleaning can often be booked within a few days. House moves need about a week's notice for a flat and two weeks for a house; month end is the busiest time. Ask us and we will give you the earliest date available."
+        },
+        {
+          "q": "Why don't you publish a price list?",
+          "a": "Prices depend on the size and condition of the property, access, the number of visits and what is included. A fixed list would either overcharge small jobs or surprise you on the day. We give you a written price for your actual job instead. Our guides explain the <a href=\"/blog/fumigation-cost-nairobi/\">pricing factors for fumigation</a>, <a href=\"/blog/cleaning-services-cost-nairobi/\">cleaning</a> and <a href=\"/blog/house-movers-cost-nairobi/\">moving</a>."
+        },
+        {
+          "q": "Can I book more than one service together?",
+          "a": "Yes. Many clients combine a house move with a move-out clean of the old property and a fumigation or move-in clean of the new one. One request, one plan and one contact.",
+          "home": true
+        }
+      ]
+    },
+    {
+      "group": "Coverage and timing",
+      "items": [
+        {
+          "q": "Which areas do you cover?",
+          "a": "We work across Nairobi, including Westlands, Kilimani, Lavington, Kileleshwa, Runda, Karen, Lang'ata, South B, South C and Embakasi, and surrounding areas such as Ruaka, Ruiru, Kikuyu, Ngong, Syokimau and Kitengela. Ask us about other locations.",
+          "home": true
+        },
+        {
+          "q": "What are your working hours?",
+          "a": "Our office hours are Monday to Friday 9am to 6pm, and Saturday and Sunday 9am to 4pm. Office cleaning and office moves can be scheduled outside working hours, including evenings and weekends."
+        },
+        {
+          "q": "How long will the job take?",
+          "a": "As a guide, a two-bedroom deep clean usually takes three to six hours, a one- or two-bedroom house move is usually a single day, and most pest treatments take one to three hours on site plus re-entry time. We give you a time estimate with your quote."
+        }
+      ]
+    },
+    {
+      "group": "Preparation and safety",
+      "items": [
+        {
+          "q": "How should I prepare for my service?",
+          "a": "We send preparation guidance with every booking. In general, clear floors and surfaces, put valuables away and tell us about children, pets, allergies or delicate surfaces. Pest treatments have specific preparation steps, such as washing bedding before bed bug treatment.",
+          "home": true
+        },
+        {
+          "q": "Is pest control safe for my family and pets?",
+          "a": "Yes, when re-entry times are followed. We tell you the product name and how long to stay out before we treat, and we keep baits inside tamper-resistant stations. Remove pet bowls and cover aquariums before the visit.",
+          "home": true
+        },
+        {
+          "q": "Do I need to be at home?",
+          "a": "Not for most cleaning and some pest control jobs, as long as access is arranged in advance. For moves, someone needs to be available at both properties. For the first visit of any service, being there at the start helps us confirm the plan."
+        }
+      ]
+    },
+    {
+      "group": "Quality and payment",
+      "items": [
+        {
+          "q": "What if I am not happy with the work?",
+          "a": "Tell us as soon as possible. If anything in the agreed scope was missed, we come back and put it right at no extra cost. For pest control, if the pest returns within the agreed follow-up window, we return to treat it."
+        },
+        {
+          "q": "When do I pay?",
+          "a": "Payment is due at the time of service unless a different arrangement, such as monthly invoicing for contracts, has been agreed in writing. We confirm payment terms with your quote."
+        },
+        {
+          "q": "Do you provide equipment and materials?",
+          "a": "Yes. Cleaning teams bring their own equipment and materials, pest control technicians bring their products and protective equipment, and moving crews bring protective wrapping. Boxes and packing materials are available on request."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "redirects": [
+    {
+      "from": "/pest-control-nairobi/",
+      "to": "/services/pest-control/"
+    },
+    {
+      "from": "/cockroach-fumigation-nairobi/",
+      "to": "/services/pest-control/cockroach-control/"
+    },
+    {
+      "from": "/services/bedbug-fumigation/",
+      "to": "/services/pest-control/bed-bug-control/"
+    },
+    {
+      "from": "/mosquito-fumigation-nairobi/",
+      "to": "/services/pest-control/mosquito-control/"
+    },
+    {
+      "from": "/rodent-control-nairobi/",
+      "to": "/services/pest-control/rodent-control/"
+    },
+    {
+      "from": "/movers-nairobi/",
+      "to": "/services/moving-relocation/"
+    },
+    {
+      "from": "/home-relocation/",
+      "to": "/services/moving-relocation/home-moving/"
+    },
+    {
+      "from": "/office-relocation/",
+      "to": "/services/moving-relocation/office-relocation/"
+    },
+    {
+      "from": "/cleaning-services-nairobi/",
+      "to": "/services/cleaning/"
+    },
+    {
+      "from": "/residential-cleaning/",
+      "to": "/services/cleaning/residential-cleaning/"
+    },
+    {
+      "from": "/office-cleaning/",
+      "to": "/services/cleaning/office-cleaning/"
+    },
+    {
+      "from": "/post-construction-cleaning/",
+      "to": "/services/cleaning/post-construction-cleaning/"
+    },
+    {
+      "from": "/transport-logistics-nairobi/",
+      "to": "/services/transport-logistics/"
+    },
+    {
+      "from": "/about-us/",
+      "to": "/about/"
+    },
+    {
+      "from": "/about-us/cleaning-process/",
+      "to": "/our-process/"
+    },
+    {
+      "from": "/about-us/faq/",
+      "to": "/faqs/"
+    },
+    {
+      "from": "/about-us/customer-reviews/",
+      "to": "/reviews/"
+    },
+    {
+      "from": "/about-us/privacy-policy/",
+      "to": "/privacy-policy/"
+    },
+    {
+      "from": "/about-us/terms-of-service/",
+      "to": "/terms-of-service/"
+    },
+    {
+      "from": "/contact-us/",
+      "to": "/contact/"
+    },
+    {
+      "from": "/free-quote/",
+      "to": "/request-quote/"
+    },
+    {
+      "from": "/services/office-cleaning/",
+      "to": "/services/cleaning/office-cleaning/"
+    },
+    {
+      "from": "/services/commercial/",
+      "to": "/services/cleaning/office-cleaning/"
+    },
+    {
+      "from": "/services/move-in-out-cleaning/",
+      "to": "/services/cleaning/residential-cleaning/"
+    },
+    {
+      "from": "/services/residental/",
+      "to": "/services/cleaning/residential-cleaning/"
+    },
+    {
+      "from": "/services/recurring-cleaning/",
+      "to": "/services/cleaning/residential-cleaning/"
+    },
+    {
+      "from": "/services/short-term-rentals/",
+      "to": "/services/cleaning/residential-cleaning/"
+    },
+    {
+      "from": "/services/airbnb-cleaning/",
+      "to": "/services/cleaning/residential-cleaning/"
+    },
+    {
+      "from": "/services/apartment-cleaning/",
+      "to": "/services/cleaning/residential-cleaning/"
+    },
+    {
+      "from": "/services/deep-cleaning/",
+      "to": "/services/cleaning/residential-cleaning/"
+    },
+    {
+      "from": "/services/house-cleaning/",
+      "to": "/services/cleaning/residential-cleaning/"
+    },
+    {
+      "from": "/category/cleaning/",
+      "to": "/blog/category/cleaning/"
+    },
+    {
+      "from": "/category/pest-control/",
+      "to": "/blog/category/pest-control/"
+    },
+    {
+      "from": "/category/moving-relocation/",
+      "to": "/blog/category/moving-relocation/"
+    },
+    {
+      "from": "/category/transport-logistics/",
+      "to": "/blog/category/transport-logistics/"
+    },
+    {
+      "from": "/cost-of-fumigation-in-nairobi/",
+      "to": "/blog/fumigation-cost-nairobi/"
+    },
+    {
+      "from": "/how-to-get-rid-of-bed-bugs-nairobi/",
+      "to": "/blog/how-to-get-rid-of-bed-bugs-kenya/"
+    },
+    {
+      "from": "/cockroach-infestation-signs-and-treatment/",
+      "to": "/blog/cockroach-infestation-kitchen/"
+    },
+    {
+      "from": "/moving-house-in-nairobi-checklist/",
+      "to": "/blog/house-moving-checklist-nairobi/"
+    },
+    {
+      "from": "/office-relocation-guide-nairobi/",
+      "to": "/blog/office-relocation-checklist/"
+    },
+    {
+      "from": "/post-construction-cleaning-what-it-includes/",
+      "to": "/blog/post-construction-cleaning-checklist-kenya/"
+    },
+    {
+      "from": "/choosing-a-logistics-partner-nairobi/",
+      "to": "/blog/choose-transport-logistics-company-kenya/"
+    },
+    {
+      "from": "/the-deep-cleaning-and-organizing/",
+      "to": "/blog/deep-cleaning-vs-regular-cleaning/"
+    },
+    {
+      "from": "/house-cleaning-services-before-moving-in/",
+      "to": "/blog/move-in-move-out-cleaning/"
+    },
+    {
+      "from": "/the-importance-of-regular-mattress-cleaning-for-better-sleep/",
+      "to": "/services/cleaning/residential-cleaning/"
+    }
+  ]
+}

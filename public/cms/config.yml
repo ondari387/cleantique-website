@@ -1,0 +1,184 @@
+# Decap CMS configuration for the Cleantique website.
+# Before first use, set `repo` to the GitHub repository that holds this site
+# and configure the GitHub OAuth app (see docs/CMS.md).
+backend:
+  name: github
+  repo: OWNER/cleantique-website # <-- change to your GitHub "owner/repo"
+  branch: main
+  base_url: https://cleantique.co.ke
+  auth_endpoint: api/cms/auth
+
+# Edits are saved as drafts for review before publishing.
+publish_mode: editorial_workflow
+media_folder: public/images
+public_folder: /images
+site_url: https://cleantique.co.ke
+display_url: https://cleantique.co.ke
+locale: en
+
+collections:
+  - name: posts
+    label: Blog articles
+    label_singular: Blog article
+    folder: content/posts
+    create: true
+    slug: "{{fields.slug}}"
+    identifier_field: title
+    summary: "{{title}} ({{category}})"
+    fields:
+      - { label: Title (H1), name: title, widget: string }
+      - { label: URL slug, name: slug, widget: string, hint: "lowercase-words-with-hyphens. Do not change after publishing without adding a redirect." }
+      - { label: SEO title, name: seoTitle, widget: string, hint: "About 50–60 characters" }
+      - { label: Meta description, name: description, widget: text, hint: "About 120–155 characters" }
+      - { label: Excerpt, name: excerpt, widget: text }
+      - label: Category
+        name: category
+        widget: select
+        options:
+          - { label: Pest Control, value: pest-control }
+          - { label: Cleaning, value: cleaning }
+          - { label: Moving & Relocation, value: moving-relocation }
+          - { label: Transport & Logistics, value: transport-logistics }
+      - { label: Published date, name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: Updated date, name: updated, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }
+      - { label: Author, name: author, widget: string, default: Cleantique Solutions }
+      - { label: Image key, name: image, widget: string, hint: "A key from src/lib/images.ts, e.g. bed-bug-on-mattress-close-up" }
+      - { label: Related service paths, name: services, widget: list, required: false }
+      - { label: Related article slugs, name: related, widget: list, required: false }
+      - { label: Featured on blog home, name: featured, widget: boolean, default: false, required: false }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: services
+    label: Service pages
+    label_singular: Service page
+    folder: content/services
+    create: false
+    identifier_field: title
+    summary: "{{title}} — {{path}}"
+    fields:
+      - { label: URL path, name: path, widget: string, hint: "Changing this changes the page URL" }
+      - { label: Division, name: division, widget: select, options: [pest-control, cleaning, moving-relocation, transport-logistics] }
+      - { label: Page type, name: kind, widget: select, options: [parent, child] }
+      - { label: Order, name: order, widget: number }
+      - { label: Short name, name: title, widget: string }
+      - { label: SEO title, name: seoTitle, widget: string }
+      - { label: Meta description, name: description, widget: text }
+      - { label: H1 heading, name: h1, widget: string }
+      - { label: Intro paragraph, name: lede, widget: text }
+      - { label: Hero image key, name: image, widget: string }
+      - { label: Gallery image keys, name: gallery, widget: list, required: false }
+      - { label: Highlights, name: highlights, widget: list, required: false }
+      - { label: WhatsApp service phrase, name: whatsapp, widget: string, hint: "Used in: 'I would like a quotation for …'" }
+      - { label: Last updated, name: updated, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: Related service paths, name: related, widget: list, required: false }
+      - { label: Related article slugs, name: posts, widget: list, required: false }
+      - label: FAQs
+        name: faqs
+        widget: list
+        fields:
+          - { label: Question, name: q, widget: string }
+          - { label: Answer (HTML links allowed), name: a, widget: text }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: pages
+    label: Other pages
+    folder: content/pages
+    create: false
+    identifier_field: title
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: SEO title, name: seoTitle, widget: string }
+      - { label: Meta description, name: description, widget: text }
+      - { label: H1 heading, name: h1, widget: string }
+      - { label: Intro, name: lede, widget: text, required: false }
+      - { label: Last updated, name: updated, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: settings
+    label: Settings
+    files:
+      - label: Business details
+        name: site
+        file: content/site.json
+        fields:
+          - { label: Business name, name: name, widget: string }
+          - { label: Short name, name: shortName, widget: string }
+          - { label: Website URL, name: url, widget: string }
+          - { label: Tagline, name: tagline, widget: text }
+          - { label: Phone (international, no spaces), name: phone, widget: string }
+          - { label: Phone (display), name: phoneDisplay, widget: string }
+          - { label: WhatsApp number (digits only), name: whatsapp, widget: string }
+          - { label: Email, name: email, widget: string }
+          - label: Address
+            name: address
+            widget: object
+            fields:
+              - { label: Locality, name: locality, widget: string }
+              - { label: Region, name: region, widget: string }
+              - { label: Country code, name: country, widget: string }
+              - { label: Country name, name: countryName, widget: string }
+          - { label: Google Maps link, name: mapsUrl, widget: string }
+          - label: Opening hours
+            name: hours
+            widget: list
+            fields:
+              - { label: Days (display), name: days, widget: string }
+              - { label: Opens (HH:MM), name: open, widget: string }
+              - { label: Closes (HH:MM), name: close, widget: string }
+              - { label: Days (schema.org names), name: schema, widget: list }
+          - { label: Service areas, name: serviceAreas, widget: list }
+          - label: Social profiles
+            name: social
+            widget: list
+            required: false
+            fields:
+              - { label: Network, name: name, widget: string }
+              - { label: URL, name: url, widget: string }
+          - label: Analytics
+            name: analytics
+            widget: object
+            fields:
+              - { label: GTM container ID, name: gtmId, widget: string }
+              - { label: GA4 measurement ID, name: ga4Id, widget: string }
+              - { label: Google Ads ID, name: adsId, widget: string }
+      - label: General FAQs
+        name: faqs
+        file: content/faqs.json
+        fields:
+          - label: Groups
+            name: groups
+            widget: list
+            fields:
+              - { label: Group, name: group, widget: string }
+              - label: Questions
+                name: items
+                widget: list
+                fields:
+                  - { label: Question, name: q, widget: string }
+                  - { label: Answer, name: a, widget: text }
+                  - { label: Show on homepage, name: home, widget: boolean, required: false }
+      - label: Customer reviews
+        name: reviews
+        file: content/reviews.json
+        fields:
+          - { label: Note, name: _note, widget: text }
+          - { label: Google reviews link, name: googleReviewsUrl, widget: string, required: false }
+          - label: Reviews
+            name: reviews
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Area, name: area, widget: string }
+              - { label: Service, name: service, widget: string }
+              - { label: Division, name: division, widget: select, options: [pest-control, cleaning, moving-relocation, transport-logistics] }
+              - { label: Review text, name: text, widget: text }
+      - label: Redirects (old URL → new URL)
+        name: redirects
+        file: content/redirects.json
+        fields:
+          - label: Redirects
+            name: redirects
+            widget: list
+            fields:
+              - { label: From, name: from, widget: string }
+              - { label: To, name: to, widget: string }

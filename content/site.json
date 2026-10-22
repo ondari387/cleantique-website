@@ -1,0 +1,46 @@
+{
+  "name": "Cleantique Solutions",
+  "shortName": "Cleantique",
+  "url": "https://cleantique.co.ke",
+  "tagline": "Your trusted partner for cleaner spaces, pest-free environments, seamless moves and reliable logistics.",
+  "phone": "+254793329293",
+  "phoneDisplay": "+254 793 329 293",
+  "whatsapp": "254793329293",
+  "email": "hi@cleantique.co.ke",
+  "address": {
+    "locality": "Nairobi",
+    "region": "Nairobi County",
+    "country": "KE",
+    "countryName": "Kenya"
+  },
+  "mapsUrl": "https://maps.app.goo.gl/2TWiaf3DBfx5HQNy9",
+  "hours": [
+    { "days": "Monday – Friday", "open": "09:00", "close": "18:00", "schema": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"] },
+    { "days": "Saturday", "open": "09:00", "close": "16:00", "schema": ["Saturday"] },
+    { "days": "Sunday", "open": "09:00", "close": "16:00", "schema": ["Sunday"] }
+  ],
+  "serviceAreas": [
+    "Westlands",
+    "Kilimani",
+    "Lavington",
+    "Kileleshwa",
+    "Runda",
+    "Karen",
+    "Lang'ata",
+    "South B",
+    "South C",
+    "Embakasi",
+    "Syokimau",
+    "Kitengela",
+    "Ruaka",
+    "Ruiru",
+    "Kikuyu",
+    "Ngong"
+  ],
+  "social": [],
+  "analytics": {
+    "gtmId": "GTM-W6H9BJJW",
+    "ga4Id": "G-S8NSBKQZ35",
+    "adsId": "AW-17497576869"
+  }
+}
