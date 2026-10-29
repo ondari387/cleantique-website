@@ -9,10 +9,26 @@
     "card": "Protect your home or workplace with targeted treatment for cockroaches, bed bugs, mosquitoes and rodents, with preparation advice and follow-up built into the quote.",
     "whatsapp": "pest control",
     "children": [
-      { "name": "Cockroach Control", "path": "/services/pest-control/cockroach-control/" },
-      { "name": "Bed Bug Control", "path": "/services/pest-control/bed-bug-control/" },
-      { "name": "Mosquito Control", "path": "/services/pest-control/mosquito-control/" },
-      { "name": "Rodent Control", "path": "/services/pest-control/rodent-control/" }
+      {
+        "name": "Cockroach Control",
+        "path": "/services/pest-control/cockroach-control/"
+      },
+      {
+        "name": "Bed Bug Control",
+        "path": "/services/pest-control/bed-bug-control/"
+      },
+      {
+        "name": "Mosquito Control",
+        "path": "/services/pest-control/mosquito-control/"
+      },
+      {
+        "name": "Rodent Control",
+        "path": "/services/pest-control/rodent-control/"
+      },
+      {
+        "name": "Car Fumigation",
+        "path": "/services/pest-control/car-fumigation/"
+      }
     ]
   },
   {
@@ -25,9 +41,18 @@
     "card": "Keep homes and workplaces clean and ready for use, from a one-off deep clean to scheduled office contracts and builders' handover cleans, all against a written checklist.",
     "whatsapp": "cleaning",
     "children": [
-      { "name": "Residential Cleaning", "path": "/services/cleaning/residential-cleaning/" },
-      { "name": "Office Cleaning", "path": "/services/cleaning/office-cleaning/" },
-      { "name": "Post-Construction Cleaning", "path": "/services/cleaning/post-construction-cleaning/" }
+      {
+        "name": "Residential Cleaning",
+        "path": "/services/cleaning/residential-cleaning/"
+      },
+      {
+        "name": "Office Cleaning",
+        "path": "/services/cleaning/office-cleaning/"
+      },
+      {
+        "name": "Post-Construction Cleaning",
+        "path": "/services/cleaning/post-construction-cleaning/"
+      }
     ]
   },
   {
@@ -40,8 +65,14 @@
     "card": "Make your next move more manageable with a survey, a written quote and a coordinated moving day, from packing and protection to offloading and reassembly.",
     "whatsapp": "a house or office move",
     "children": [
-      { "name": "Home Moving", "path": "/services/moving-relocation/home-moving/" },
-      { "name": "Office Relocation", "path": "/services/moving-relocation/office-relocation/" }
+      {
+        "name": "Home Moving",
+        "path": "/services/moving-relocation/home-moving/"
+      },
+      {
+        "name": "Office Relocation",
+        "path": "/services/moving-relocation/office-relocation/"
+      }
     ]
   },
   {
@@ -54,9 +85,18 @@
     "card": "Keep goods moving with one-off deliveries, scheduled distribution runs and collection-to-delivery coordination for individuals and businesses.",
     "whatsapp": "goods transport",
     "children": [
-      { "name": "Goods Transportation", "path": "/services/transport-logistics/#goods-transportation" },
-      { "name": "Scheduled & Contract Runs", "path": "/services/transport-logistics/#scheduled-and-contract-runs" },
-      { "name": "Business Deliveries", "path": "/services/transport-logistics/#business-deliveries-and-distribution" }
+      {
+        "name": "Goods Transportation",
+        "path": "/services/transport-logistics/#goods-transportation"
+      },
+      {
+        "name": "Scheduled & Contract Runs",
+        "path": "/services/transport-logistics/#scheduled-and-contract-runs"
+      },
+      {
+        "name": "Business Deliveries",
+        "path": "/services/transport-logistics/#business-deliveries-and-distribution"
+      }
     ]
   }
 ]

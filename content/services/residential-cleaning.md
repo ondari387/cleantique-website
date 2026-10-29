@@ -88,6 +88,16 @@ We clean houses, flats, apartments, maisonettes, townhouses and short-term renta
 
 A regular clean covers the same rooms without the built-up work: kitchen and bathrooms, dusting, surfaces, floors and bins. We agree the exact list with you.
 
+## Carpet, upholstery and window cleaning
+
+These are genuine specialities within our residential cleaning service, not a vague add-on. Sofas, carpets and window glass carry grime that ordinary dusting and vacuuming do not remove, and Nairobi's dust and road grime make the difference obvious within weeks.
+
+- **Carpet cleaning.** Machine extraction lifts ground-in dirt, stains and dust that regular vacuuming leaves behind, and carpets dry faster than most people expect.
+- **Upholstery cleaning.** Sofas, armchairs and dining chairs are steam cleaned to lift dust, body oils and stains from the fabric, without soaking the foam underneath.
+- **Window cleaning.** Interior glass and sills are part of every deep clean. Exterior windows, including upper floors, can be added where access allows.
+
+Any of these can be booked as a standalone visit or added to a deep clean. Tell us which rooms and pieces need attention when you book.
+
 ## What is standard and what needs extra arrangements
 
 Standard cleaning covers surfaces we can safely reach from the floor or a small step ladder. These need separate arrangements:

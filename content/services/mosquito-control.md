@@ -47,6 +47,13 @@ faqs:
     a: >-
       Yes. We can survey and fog gardens, terraces and event grounds a few hours before guests arrive, and advise on
       clearing standing water in the days before.
+  - q: Is fumigation the same as fogging?
+    a: >-
+      Not quite, though the words are often used interchangeably in Nairobi. Fogging is a fine insecticide mist
+      released into a room or outdoor space, which kills mosquitoes it contacts at the time. True fumigation means
+      sealing a space and filling it with gas, which is used for specialist situations like grain stores, not a
+      typical mosquito treatment. What most homes need, and what we quote for, is indoor residual spraying and
+      outdoor fogging, not gas fumigation.
 ---
 
 Mosquitoes are more than a nuisance in Nairobi. The constant whine and bites at night ruin sleep, and some species carry disease. The city's large, high-altitude setting means malaria transmission in Nairobi itself is low compared with the coast and the lake region, but day-biting *Aedes* mosquitoes, which can carry dengue and chikungunya, have been recorded in Nairobi neighbourhoods, and *Culex* mosquitoes breeding in drains and septic water are a familiar night-time pest across the city.

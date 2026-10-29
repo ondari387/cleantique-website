@@ -88,10 +88,19 @@ The scope is adjusted to your premises at the site visit. This is the usual star
 | Waste | Bins emptied, liners replaced, waste taken to the collection point | Bin washing |
 | Floors | Vacuum carpets, mop hard floors, spot-clean marks | Machine scrubbing, carpet extraction, polishing |
 
+## Carpet, upholstery and window cleaning
+
+These are a genuine part of our office cleaning service, booked as periodic tasks alongside your regular contract rather than left out of it.
+
+- **Carpet cleaning.** Machine extraction for office carpets and carpet tiles, scheduled outside working hours so floors are dry and usable the next morning.
+- **Upholstery cleaning.** Reception seating, meeting room chairs and soft furnishings are steam cleaned to remove dust and staining that daily wiping does not reach.
+- **Window cleaning.** Interior glass and partitions are cleaned as part of the regular scope. Exterior windows, including upper floors, are quoted separately and scheduled around access and weather.
+
+Tell us at the site visit which of these you want included on a periodic schedule, and how often.
+
 ## What is excluded or quoted separately
 
-- External window cleaning above ground floor.
-- Carpet extraction and upholstery cleaning, unless included as periodic tasks.
+- External window cleaning above ground floor, quoted separately due to access equipment.
 - Cleaning inside server rooms and sensitive equipment rooms, unless specifically agreed.
 - Disposal of confidential waste, which should go to a certified shredding provider.
 - Post-renovation cleaning, which is a [post-construction clean](/services/cleaning/post-construction-cleaning/).

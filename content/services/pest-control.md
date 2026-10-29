@@ -54,6 +54,12 @@ faqs:
       Yes, and it is the easiest time to do it because rooms are empty and every surface can be reached. Many clients
       book a pre-move treatment together with a <a href="/services/moving-relocation/home-moving/">house move</a>
       or a <a href="/services/cleaning/residential-cleaning/">move-in clean</a>.
+  - q: Can you provide a fumigation certificate?
+    a: >-
+      Yes, written confirmation of treatment is a standard part of the service. Tell us if it is for a landlord,
+      lease condition or your own records, and we will make sure it covers what is being asked of you. See our guide
+      on <a href="/blog/fumigation-certificate-kenya/">fumigation certificates in Kenya</a> for what a useful one
+      should state.
 ---
 
 Most people call us after trying a supermarket spray for a few weeks. The pests went quiet for a day or two and then came back, sometimes in more rooms than before. That is not bad luck. Sprays aimed at the insects you can see miss the eggs, the nests and the hiding places, and some sprays push pests deeper into walls and neighbouring rooms.
@@ -93,6 +99,8 @@ This combination is often called integrated pest management. It uses chemicals w
 | [Rats and mice](/services/pest-control/rodent-control/) | Droppings, gnaw marks, chewed cables, scratching in the ceiling | Survey, entry-point proofing, secure baiting stations, carcass removal | Treatment plus a check visit |
 
 We confirm the exact method after inspecting your space. If we find a pest outside this list, such as ants, fleas or termites, tell us and we will say plainly whether we can help or who you should call.
+
+Pests do not stop at the front door. If cockroaches or bed bugs have settled into a car, taxi or fleet vehicle, see our [car fumigation](/services/pest-control/car-fumigation/) page.
 
 ## What is included in a pest control visit
 
