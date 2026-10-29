@@ -64,8 +64,16 @@ Several keywords in your list — "best fumigation company in Kenya," "best fumi
 
 You rank for "best X" queries the honest way: by being the page that most completely and clearly answers the buyer's actual questions (what's included, is it safe, what affects the price, how it works), with genuine cross-service depth nobody else in the Nairobi market has combined well. That's already the stated strategy in §2.2 — this keyword list doesn't change that, it just adds more specific long-tail terms underneath it.
 
-## 8.6 Open items — need your input
+## 8.6 Open items — resolved
 
-1. **Towns for transport/logistics coverage** — which ones, specifically?
-2. **Carpet/window/upholstery cleaning** — genuinely in scope for residential/office cleaning, or not?
-3. **Termite/ant/flea treatment** — flag if/when any of these become real, bookable services so the relevant blog section can become a proper service page instead.
+1. **Towns for transport/logistics coverage.** Confirmed: Nairobi and environs only. No expansion to Eldoret, Diani or Meru. No change needed to `/services/transport-logistics/`.
+2. **Carpet/window/upholstery cleaning.** Confirmed genuinely in scope. Added as a dedicated "Carpet, upholstery and window cleaning" section to both `residential-cleaning.md` and `office-cleaning.md` (2026-10-29), rather than leaving them buried as table footnotes.
+3. **Termite/ant/flea treatment.** Still not confirmed as real services. Still flagged: tell us if/when any become real, bookable services so the relevant blog content can become a proper service page.
+
+## 8.7 Content shipped (2026-10-29)
+
+- 5 new blog posts: `does-fumigation-kill-household-pests`, `after-fumigation-what-to-do`, `fumigation-certificate-kenya`, `end-of-lease-fumigation-nairobi`, `diy-fumigation-foggers-vs-professional`.
+- New service page: `/services/pest-control/car-fumigation/`, added to `divisions.json` under the pest-control division.
+- New FAQ on `/services/pest-control/mosquito-control/`: fumigation vs fogging.
+- New FAQ on `/services/pest-control/` hub: fumigation certificates, linking to the new post.
+- `npm run check:content` passes with zero errors and zero warnings against all new and existing content.
