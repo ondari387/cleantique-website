@@ -12,7 +12,7 @@ image: cleaner-vacuuming-living-room
 gallery: [steam-cleaning-sofa-upholstery, cleaner-dusting-shelves]
 highlights: ["Deep, regular or move-in/out cleans", "Checklist agreed in advance", "Equipment and materials provided"]
 whatsapp: residential cleaning
-updated: 2026-10-21
+updated: 2026-11-03
 related:
   - /services/pest-control/bed-bug-control/
   - /services/moving-relocation/home-moving/
@@ -176,4 +176,4 @@ A trained team with the right equipment gets more done in a morning than most pe
 
 ## Areas we serve
 
-We clean homes in Kilimani, Kileleshwa, Lavington, Westlands, Runda, Karen, Lang'ata, South B, South C and Embakasi, and in nearby areas including Ruaka, Ruiru, Kikuyu, Ngong, Syokimau and Kitengela.
+We clean homes in Kilimani, Kileleshwa, Lavington, Westlands, Runda, Karen, Lang'ata, South B, South C, Embakasi and Donholm, and in nearby areas including Ruaka, Ruiru, Kikuyu, Ngong, Syokimau and Kitengela.

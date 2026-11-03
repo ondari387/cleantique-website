@@ -12,7 +12,7 @@ image: rat-on-wooden-floor
 gallery: [brown-rat-foraging-outdoors, pest-control-worker-spraying-building]
 highlights: [Entry-point survey and proofing, Tamper-resistant bait stations, Carcass removal and check visit]
 whatsapp: rodent control
-updated: 2026-10-21
+updated: 2026-11-03
 related:
   - /services/pest-control/cockroach-control/
   - /services/cleaning/office-cleaning/
@@ -150,4 +150,4 @@ Rodent control is judged by whether they come back, not by how much bait was use
 
 ## Areas we serve
 
-We provide rodent control for homes, estates, offices, shops, restaurants and stores across Nairobi and nearby, including Embakasi, South B, South C, Westlands, Kilimani, Ruaka, Ruiru, Syokimau and Kitengela.
+We provide rodent control for homes, estates, offices, shops, restaurants and stores across Nairobi and nearby, including Embakasi, Donholm, Eastleigh, South B, South C, Westlands, Kilimani, Ruaka, Ruiru, Syokimau and Kitengela.

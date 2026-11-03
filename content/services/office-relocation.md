@@ -12,7 +12,7 @@ image: modern-office-lounge-interior
 gallery: [packed-boxes-and-covered-sofa-house-move, delivery-truck-at-loading-bay]
 highlights: ["Evening, overnight and weekend moves", "Labelled to the new floor plan", "IT equipment kept together"]
 whatsapp: an office relocation
-updated: 2026-10-21
+updated: 2026-11-03
 related:
   - /services/cleaning/office-cleaning/
   - /services/transport-logistics/
@@ -163,4 +163,4 @@ A professional team plans the move with you, brings enough people and the right 
 
 ## Areas we serve
 
-We relocate offices within Nairobi, including Westlands, Upper Hill, Kilimani, Lavington, Karen and Embakasi, and to and from nearby areas such as Ruaka, Ruiru, Syokimau and Kitengela.
+We relocate offices within Nairobi, including Westlands, Upper Hill, Kilimani, Lavington, Karen, Embakasi and Kabete, and to and from nearby areas such as Ruaka, Ruiru, Syokimau and Kitengela.

@@ -12,7 +12,7 @@ image: truck-on-nairobi-expressway
 gallery: [delivery-truck-at-loading-bay, cargo-truck-on-open-highway]
 highlights: [Vehicle matched to the load, Confirmed collection windows, Delivery confirmation]
 whatsapp: goods transport
-updated: 2026-10-21
+updated: 2026-11-03
 related:
   - /services/moving-relocation/office-relocation/
   - /services/moving-relocation/
@@ -166,4 +166,4 @@ A dependable transport partner saves you the time spent finding a vehicle, negot
 
 ## Areas we serve
 
-We collect and deliver across Nairobi, including the Industrial Area, Westlands, Embakasi, Mombasa Road, Kilimani and Karen, and to nearby towns such as Ruiru, Thika Road, Kikuyu, Syokimau, Kitengela and Ngong. Routes further afield can be arranged on request.
+We collect and deliver across Nairobi, including the Industrial Area, Westlands, Embakasi, Mombasa Road, Kilimani and Karen, and to nearby towns such as Ruiru, Thika Road, Kikuyu, Ongata Rongai, Syokimau, Kitengela and Ngong. Routes further afield can be arranged on request.

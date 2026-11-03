@@ -77,3 +77,38 @@ You rank for "best X" queries the honest way: by being the page that most comple
 - New FAQ on `/services/pest-control/mosquito-control/`: fumigation vs fogging.
 - New FAQ on `/services/pest-control/` hub: fumigation certificates, linking to the new post.
 - `npm run check:content` passes with zero errors and zero warnings against all new and existing content.
+
+## 8.8 Google autocomplete / "people also search for" batch (2026-11-03)
+
+You sent 10 screenshots of real Google autocomplete and "people also search for" results for "fumigation company", "pest control", "cleaning" and "movers" in Kenya. Here is how each genuine signal was worked in, and what was deliberately left out.
+
+**Neighbourhood-level terms.** Four neighbourhoods appeared that were not yet in any "Areas we serve" section: Donholm, Eastleigh, Kabete and Ongata Rongai ("movers rongai"). All four sit within the already-confirmed "Nairobi and environs" scope (Ongata Rongai is the same kind of adjacent commuter town as Ngong and Kikuyu, already listed). Rather than build new location pages — which the existing policy in §2.7 rules out without confirmed local operations — each name was added as one more entry in the existing area-list sentence on the relevant service pages, exactly the same pattern already used for Ruaka, Syokimau, Kitengela and the rest:
+
+- Donholm: pest-control hub, bed bug control, rodent control, cleaning hub, residential cleaning, home moving.
+- Eastleigh: pest-control hub, cockroach control, rodent control.
+- Kabete: cleaning hub, office cleaning, office relocation.
+- Ongata Rongai: moving-relocation hub, home moving, transport & logistics.
+
+No new pages, no new paragraphs built around a place name — just a truthful extension of a sentence that already existed.
+
+**"Near me" queries.** Deliberately not chased with literal "near me" phrasing in body copy — that's the kind of insertion that reads as stuffed because it is. "Near me" intent is served by Google Business Profile and NAP consistency, not by repeating the phrase on the page. No content change made for this; noting it here so it isn't re-flagged as a gap later.
+
+**"Best" / "top 10" / "reviews" terms** ("best fumigation company", "best pest control companies in Kenya", "fumigation company reviews", "top 10 cleaning companies in Nairobi/Kenya", "best movers in Nairobi", "cheapest movers in Nairobi"). The existing policy (§8.5) already rules out chasing these with self-declared superlatives. Instead, two new honest buyer's-guide posts were written, matching the pattern already used for `choose-moving-company-nairobi` and `choose-transport-logistics-company-kenya`:
+
+- `choosing-a-pest-control-company-kenya` — what to look for, PCPB registration, questions to ask, red flags, and a section explicitly telling the reader that "top 10" lists are usually directory listings, not independent rankings, with the checklist to judge any company (including us) instead.
+- `choosing-a-cleaning-company-nairobi` — the same approach for cleaning companies.
+
+Both are linked from the pest-control and cleaning hub FAQs. This captures the "best"/"top"/"reviews" search intent honestly: by being the page that answers the buyer's real question, not by claiming the superlative.
+
+**Combined-service phrasing** ("cleaning and fumigation services", "pest control and fumigation services"). Already covered — the pest-control hub FAQ "Can you treat a property before we move in?" and the cleaning hub FAQ "Can you clean the house and treat it for pests at the same time?" both address this directly. No change needed.
+
+**Excluded, with reason:**
+
+| Term(s) | Why excluded |
+|---|---|
+| "movers in mombasa" | Outside the confirmed "Nairobi and environs" scope (§8.6, item 1). Would be an unconfirmed geographic claim. |
+| "cleaning companies in Kenya hiring" | Job-seeker search intent, not a buyer looking to hire us. |
+| "cleaning company list", "cleaning company price list" | Directory/listicle intent. Covered in substance by `cleaning-services-cost-nairobi` (pricing factors) and the new `choosing-a-cleaning-company-nairobi` guide (how to compare), without building an actual directory page. |
+| "cleaning and fumigation company profile" | Reads as a search for a company's own "about us" / profile document, not a buyer intent page. The existing `/about/` page already serves this. |
+
+`npm run check:content` passes with zero errors and zero warnings against all new and existing content, including these additions.

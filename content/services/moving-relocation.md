@@ -12,7 +12,7 @@ image: movers-loading-boxes-into-truck
 gallery: [packed-boxes-and-covered-sofa-house-move, couple-unpacking-boxes-new-home]
 highlights: ["Survey before quoting", "Written price and date", "Move, clean and fumigation in one booking"]
 whatsapp: a house or office move
-updated: 2026-10-21
+updated: 2026-11-03
 related:
   - /services/cleaning/residential-cleaning/
   - /services/pest-control/bed-bug-control/
@@ -147,4 +147,4 @@ A professional moving team brings the right number of people, the right vehicle,
 
 ## Areas we serve
 
-We move homes and offices within Nairobi, including Westlands, Kilimani, Lavington, Kileleshwa, Runda, Karen, Lang'ata, South B, South C and Embakasi, and to and from nearby areas such as Ruaka, Ruiru, Kikuyu, Ngong, Syokimau and Kitengela. Moves further afield can be arranged on request.
+We move homes and offices within Nairobi, including Westlands, Kilimani, Lavington, Kileleshwa, Runda, Karen, Lang'ata, South B, South C and Embakasi, and to and from nearby areas such as Ruaka, Ruiru, Kikuyu, Ngong, Ongata Rongai, Syokimau and Kitengela. Moves further afield can be arranged on request.

@@ -12,7 +12,7 @@ image: bed-bug-on-bedding-close-up
 gallery: [bed-bug-treatment-in-bedroom, technician-vacuuming-cushion]
 highlights: [Two treatments included, Preparation checklist provided, Discreet arrival on request]
 whatsapp: bed bug control
-updated: 2026-10-21
+updated: 2026-11-03
 related:
   - /services/cleaning/residential-cleaning/
   - /services/moving-relocation/home-moving/
@@ -161,4 +161,4 @@ Bed bug work either succeeds completely or it fails, and the difference usually 
 
 ## Areas we serve
 
-We treat homes, rentals, Airbnbs, hostels and offices across Nairobi and nearby, including Kilimani, Westlands, Lavington, Karen, South B, South C, Embakasi, Ruaka, Ruiru, Kikuyu, Ngong, Syokimau and Kitengela. Discreet, unmarked arrival is available on request.
+We treat homes, rentals, Airbnbs, hostels and offices across Nairobi and nearby, including Kilimani, Westlands, Lavington, Karen, South B, South C, Embakasi, Donholm, Ruaka, Ruiru, Kikuyu, Ngong, Syokimau and Kitengela. Discreet, unmarked arrival is available on request.

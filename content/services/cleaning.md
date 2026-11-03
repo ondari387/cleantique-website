@@ -12,7 +12,7 @@ image: mop-and-cleaning-supplies-on-tiled-floor
 gallery: [cleaning-team-in-kitchen-wide]
 highlights: [Written checklist agreed first, Equipment and materials provided, In-scope misses fixed at no cost]
 whatsapp: cleaning
-updated: 2026-10-21
+updated: 2026-11-03
 related:
   - /services/pest-control/
   - /services/moving-relocation/home-moving/
@@ -48,6 +48,12 @@ faqs:
       Yes, and they work well together. We usually recommend cleaning first and treating afterwards, or treating first
       and cleaning only the areas we advise, so that residual pest treatments are not wiped away. We plan the order for
       you.
+  - q: How do I choose a reliable cleaning company in Nairobi?
+    a: >-
+      Look for a written checklist agreed before the clean starts, a consistent, briefed team rather than whoever is
+      free that day, and a clear answer about what happens if something is missed. Our guide on
+      <a href="/blog/choosing-a-cleaning-company-nairobi/">choosing a cleaning company in Nairobi</a> sets out the
+      questions to ask and the red flags to watch for.
 ---
 
 Cleaning is easy to promise and easy to do badly. The difference between a clean that you notice and one that you do not usually comes down to three things: agreeing exactly what is included before anyone arrives, using the right method and product for each surface, and checking the work before the team leaves.
@@ -157,4 +163,4 @@ A professional team brings the right equipment, works to a consistent standard a
 
 ## Areas we serve
 
-We clean homes, rentals and offices across Nairobi, including Westlands, Kilimani, Lavington, Kileleshwa, Runda, Karen, Lang'ata, South B, South C and Embakasi, and nearby areas including Ruaka, Ruiru, Kikuyu, Ngong, Syokimau and Kitengela.
+We clean homes, rentals and offices across Nairobi, including Westlands, Kilimani, Lavington, Kileleshwa, Runda, Karen, Lang'ata, South B, South C, Embakasi, Donholm and Kabete, and nearby areas including Ruaka, Ruiru, Kikuyu, Ngong, Syokimau and Kitengela.

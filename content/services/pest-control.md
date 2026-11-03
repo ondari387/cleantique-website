@@ -12,7 +12,7 @@ image: technician-thermal-fogging-courtyard
 gallery: [fumigation-technician-protective-suit, technician-applying-indoor-pest-treatment]
 highlights: [Inspection before treatment, Product and re-entry time in writing, Follow-up included in the quote]
 whatsapp: pest control
-updated: 2026-10-21
+updated: 2026-11-03
 related:
   - /services/cleaning/residential-cleaning/
   - /services/moving-relocation/home-moving/
@@ -60,6 +60,12 @@ faqs:
       lease condition or your own records, and we will make sure it covers what is being asked of you. See our guide
       on <a href="/blog/fumigation-certificate-kenya/">fumigation certificates in Kenya</a> for what a useful one
       should state.
+  - q: How do I know if a pest control company in Kenya is legitimate?
+    a: >-
+      Ask what product they use and whether they can name it, whether they inspect before quoting, and whether a
+      follow-up visit is included rather than sold separately. Our guide on
+      <a href="/blog/choosing-a-pest-control-company-kenya/">choosing a pest control company in Kenya</a> covers the
+      questions worth asking and the signs of a company that cuts corners.
 ---
 
 Most people call us after trying a supermarket spray for a few weeks. The pests went quiet for a day or two and then came back, sometimes in more rooms than before. That is not bad luck. Sprays aimed at the insects you can see miss the eggs, the nests and the hiding places, and some sprays push pests deeper into walls and neighbouring rooms.
@@ -180,4 +186,4 @@ A professional brings the right product for the pest, knows where to place it, a
 
 ## Areas we serve
 
-We carry out pest control across Nairobi, including Westlands, Kilimani, Lavington, Kileleshwa, Runda, Karen, Lang'ata, South B, South C and Embakasi, and in surrounding areas such as Ruaka, Ruiru, Kikuyu, Ngong, Syokimau and Kitengela. If your location is not listed, ask us.
+We carry out pest control across Nairobi, including Westlands, Kilimani, Lavington, Kileleshwa, Runda, Karen, Lang'ata, South B, South C, Embakasi, Donholm and Eastleigh, and in surrounding areas such as Ruaka, Ruiru, Kikuyu, Ngong, Syokimau and Kitengela. If your location is not listed, ask us.

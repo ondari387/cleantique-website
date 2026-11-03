@@ -12,7 +12,7 @@ image: modern-office-lounge-interior
 gallery: [gloved-hand-wiping-cabinet-handle, cleaner-holding-cleaning-supplies]
 highlights: [Out-of-hours scheduling, Written scope and schedule, Quality checks and reviews]
 whatsapp: office cleaning
-updated: 2026-10-21
+updated: 2026-11-03
 related:
   - /services/moving-relocation/office-relocation/
   - /services/pest-control/
@@ -172,4 +172,4 @@ A professional service gives you a written standard, trained cleaners with comme
 
 ## Areas we serve
 
-We clean offices and commercial premises across Nairobi, including Westlands, Upper Hill, Kilimani, Lavington, Karen and Embakasi, and in nearby areas including Ruaka, Ruiru, Syokimau and Kitengela.
+We clean offices and commercial premises across Nairobi, including Westlands, Upper Hill, Kilimani, Lavington, Karen, Embakasi and Kabete, and in nearby areas including Ruaka, Ruiru, Syokimau and Kitengela.

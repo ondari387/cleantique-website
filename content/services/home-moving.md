@@ -12,7 +12,7 @@ image: couple-unpacking-boxes-new-home
 gallery: [movers-loading-boxes-into-truck, packed-boxes-and-covered-sofa-house-move]
 highlights: [Survey of both properties, Packing service available, Reassembly at the other end]
 whatsapp: a house move
-updated: 2026-10-21
+updated: 2026-11-03
 related:
   - /services/cleaning/residential-cleaning/
   - /services/pest-control/bed-bug-control/
@@ -175,4 +175,4 @@ Read more in [common moving mistakes and how to avoid them](/blog/common-moving-
 
 ## Areas we serve
 
-We move households across Nairobi, including Kilimani, Kileleshwa, Lavington, Westlands, Runda, Karen, Lang'ata, South B, South C and Embakasi, and to and from Ruaka, Ruiru, Kikuyu, Ngong, Syokimau and Kitengela. Moves further afield can be arranged on request.
+We move households across Nairobi, including Kilimani, Kileleshwa, Lavington, Westlands, Runda, Karen, Lang'ata, South B, South C, Embakasi and Donholm, and to and from Ruaka, Ruiru, Kikuyu, Ngong, Ongata Rongai, Syokimau and Kitengela. Moves further afield can be arranged on request.

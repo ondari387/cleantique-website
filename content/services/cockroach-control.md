@@ -12,7 +12,7 @@ image: cockroach-on-kitchen-floor
 gallery: [technician-applying-indoor-pest-treatment, cleaner-scrubbing-kitchen-counter]
 highlights: [Gel bait plus residual treatment, Food-area safe placement, Review visit included]
 whatsapp: cockroach control
-updated: 2026-10-21
+updated: 2026-11-03
 related:
   - /services/pest-control/rodent-control/
   - /services/cleaning/residential-cleaning/
@@ -155,4 +155,4 @@ Cockroach control is mostly about placement and timing. A professional knows whe
 
 ## Areas we serve
 
-We treat homes, flats, restaurants and offices across Nairobi and nearby, including Kilimani, Kileleshwa, Westlands, South B, South C, Embakasi, Ruaka, Syokimau and Kitengela. Ask us about your area.
+We treat homes, flats, restaurants and offices across Nairobi and nearby, including Kilimani, Kileleshwa, Westlands, South B, South C, Embakasi, Eastleigh, Ruaka, Syokimau and Kitengela. Ask us about your area.
