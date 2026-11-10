@@ -10,3 +10,10 @@ Each run publishes exactly 2 new posts, rotating divisions so pest control (the 
 - **`pack-and-label-goods-for-transport-kenya`** (transport-logistics) — Chosen to rotate divisions: transport-logistics had only 3 posts versus 12 for pest-control, the fewest of any division. Existing transport posts cover cost factors, choosing a company and last-mile delivery, but none covered the practical packing/labelling/documentation steps a sender needs before a collection — a genuine gap, in the same practical-checklist style as `house-moving-checklist-nairobi` and `office-relocation-checklist`.
 
 Both posts passed `npm run check:content` with zero errors and zero warnings. No new prices, statistics, ratings, service areas or pest/service types were introduced; all technical claims (e.g. bed bug egg hatch timing) reuse figures already established in existing published content.
+
+## 2026-11-10
+
+- **`rodent-control-shops-warehouses-nairobi`** (pest-control) — Chosen because "rat control for warehouses" has been a listed secondary long-tail keyword since `02-SEO-STRATEGY.md` §2.3 but had no dedicated post; the existing rodent content (`rats-in-the-house-signs-of-rodents`, `how-often-pest-control`) covers home signs and general scheduling, not a business owner's view of stock damage, proofing and monitoring programmes for shops, stores and warehouses.
+- **`moving-fragile-special-items-nairobi`** (moving-relocation) — Chosen to rotate divisions away from pest-control/transport-logistics (covered last run, 2026-11-07). No existing post covers the "items that need special handling" angle already described on the `home-moving` service page (pianos, mirrors, glass, electronics, aquariums, plants, antiques) — the existing moving posts cover cost, checklists, choosing a company and common mistakes, not this specific practical gap.
+
+Both posts passed `npm run check:content` with zero errors and zero warnings. No new prices, statistics, ratings, service areas or pest/service types were introduced; all claims reuse facts already established in the relevant service pages (`rodent-control.md`, `home-moving.md`, `office-relocation.md`).
