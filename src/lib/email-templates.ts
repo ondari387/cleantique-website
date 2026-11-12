@@ -21,8 +21,12 @@ const colors = {
   line: "#DCE3D2", // hairline borders
 };
 
-const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://cleantique.co.ke").replace(/\/$/, "");
-const logoUrl = `${siteUrl}/brand/cleantique-logo-full-transparent.png`;
+const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.cleantique.co.ke").replace(/\/$/, "");
+// Horizontal lockup, tightly cropped (the source square PNG has a lot of transparent
+// margin that made the logo look tiny when rendered small) — see public/brand/cleantique-logo-email.png.
+const logoUrl = `${siteUrl}/brand/cleantique-logo-email.png`;
+const logoWidth = 240;
+const logoHeight = 144; // matches the cropped asset's ~1.66:1 aspect ratio
 
 const fontStack =
   "'Outfit', Arial, Helvetica, sans-serif";
@@ -35,29 +39,35 @@ function shell(opts: { previewText: string; bodyHtml: string }) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cleantique Solutions</title>
+<style>
+  @media only screen and (max-width: 600px) {
+    .ct-wrap { padding: 14px 6px !important; }
+    .ct-px { padding-left: 18px !important; padding-right: 18px !important; }
+  }
+</style>
 </head>
 <body style="margin:0;padding:0;background:${colors.paper};font-family:${fontStack};">
   <!-- Preview text shown in inbox lists, hidden in the body -->
   <div style="display:none;max-height:0;overflow:hidden;opacity:0;mso-hide:all;">${escapeHtml(opts.previewText)}</div>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:${colors.paper};padding:28px 12px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:${colors.paper};">
     <tr>
-      <td align="center">
+      <td class="ct-wrap" align="center" style="padding:24px 10px;">
         <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:600px;max-width:100%;background:#ffffff;border-radius:14px;overflow:hidden;box-shadow:0 1px 2px rgba(22,26,20,.06);">
-          <!-- Header -->
+          <!-- Header: logo on white, with a hairline to separate it from the body -->
           <tr>
-            <td style="background:${colors.brand900};padding:28px 32px;text-align:center;">
-              <img src="${logoUrl}" width="56" height="56" alt="Cleantique Solutions" style="display:inline-block;border-radius:10px;">
+            <td class="ct-px" style="background:#ffffff;padding:26px 24px 18px;text-align:center;border-bottom:1px solid ${colors.line};">
+              <img src="${logoUrl}" width="${logoWidth}" height="${logoHeight}" alt="Cleantique Solutions" style="display:inline-block;max-width:70%;height:auto;">
             </td>
           </tr>
           <!-- Body -->
           <tr>
-            <td style="padding:36px 32px 28px;">
+            <td class="ct-px" style="padding:28px 24px;">
               ${opts.bodyHtml}
             </td>
           </tr>
           <!-- Footer -->
           <tr>
-            <td style="padding:22px 32px;background:${colors.brand100};border-top:1px solid ${colors.line};">
+            <td class="ct-px" style="padding:20px 24px;background:${colors.brand100};border-top:1px solid ${colors.line};">
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                 <tr>
                   <td style="font-family:${fontStack};font-size:13px;color:${colors.muted};line-height:1.6;">
@@ -75,7 +85,7 @@ function shell(opts: { previewText: string; bodyHtml: string }) {
         </table>
         <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:600px;max-width:100%;">
           <tr>
-            <td style="padding:16px 32px 0;font-family:${fontStack};font-size:12px;color:${colors.muted};text-align:center;">
+            <td class="ct-px" style="padding:14px 24px 0;font-family:${fontStack};font-size:12px;color:${colors.muted};text-align:center;">
               This message was sent in connection with a request submitted at
               <a href="${siteUrl}" style="color:${colors.muted};">cleantique.co.ke</a>.
             </td>
