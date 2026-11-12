@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
-import { divisionLabels, enquiryDetails, enquirySchema, enquirySummary, type DivisionKey } from "@/lib/enquiry";
+import { enquiryDetails, enquirySchema, type DivisionKey } from "@/lib/enquiry";
 import { newEnquiryId, saveEnquiry } from "@/lib/enquiry-store";
-import { escapeHtml, sendEmail } from "@/lib/email";
+import { sendEmail } from "@/lib/email";
+import { customerConfirmationEmail, internalQuoteRequestEmail } from "@/lib/email-templates";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -78,31 +79,41 @@ export async function POST(req: Request) {
     errors.push(`store: ${(err as Error).message}`);
   }
 
+  const detailFields = enquiryDetails(e as never);
+
+  // Internal notification to the Cleantique team.
   try {
-    const summary = enquirySummary(e as never);
-    const rows = enquiryDetails(e as never)
-      .map((f) => `<tr><td style="padding:6px 12px 6px 0;color:#5a6154;vertical-align:top">${escapeHtml(f.label)}</td><td style="padding:6px 0">${escapeHtml(f.value).replace(/\n/g, "<br>")}</td></tr>`)
-      .join("");
-    const r = await sendEmail({
-      subject: `New quote request ${id}: ${divisionLabels[division]} – ${e.name}`,
-      replyTo: e.email || undefined,
-      text: `New quote request ${id}\n\nName: ${e.name}\nPhone: ${e.phone}\nEmail: ${e.email || "-"}\n\n${summary}\n\nSubmitted from: ${e.sourcePage || "-"}`,
-      html: `<div style="font-family:Arial,sans-serif;font-size:15px;color:#161a14">
-        <h2 style="margin:0 0 4px">New quote request</h2>
-        <p style="margin:0 0 16px;color:#5a6154">${id} · ${escapeHtml(divisionLabels[division])}</p>
-        <table style="border-collapse:collapse">
-          <tr><td style="padding:6px 12px 6px 0;color:#5a6154">Name</td><td>${escapeHtml(e.name)}</td></tr>
-          <tr><td style="padding:6px 12px 6px 0;color:#5a6154">Phone</td><td><a href="tel:${escapeHtml(e.phone)}">${escapeHtml(e.phone)}</a></td></tr>
-          <tr><td style="padding:6px 12px 6px 0;color:#5a6154">Email</td><td>${escapeHtml(e.email || "-")}</td></tr>
-          ${rows}
-        </table>
-        <p style="margin-top:16px;color:#5a6154">Submitted from ${escapeHtml(e.sourcePage || "-")}</p>
-      </div>`,
+    const { subject, text, html } = internalQuoteRequestEmail({
+      id,
+      division,
+      name: e.name,
+      phone: e.phone,
+      email: e.email || "",
+      details: detailFields,
+      sourcePage: e.sourcePage || "",
     });
+    const r = await sendEmail({ subject, text, html, replyTo: e.email || undefined });
     emailed = r.sent;
     if (!r.sent) errors.push(`email: ${r.reason}`);
   } catch (err) {
     errors.push(`email: ${(err as Error).message}`);
+  }
+
+  // Confirmation to the person who submitted the enquiry, if they gave us an address.
+  if (e.email) {
+    try {
+      const { subject, text, html } = customerConfirmationEmail({
+        id,
+        division,
+        name: e.name,
+        details: detailFields,
+      });
+      await sendEmail({ to: e.email, subject, text, html });
+    } catch (err) {
+      // Not fatal: the team notification above already went out (or was attempted),
+      // and the customer still gets their on-screen confirmation. Just log it.
+      errors.push(`customer-email: ${(err as Error).message}`);
+    }
   }
 
   if (errors.length) console.error(`[enquiry ${id}]`, errors.join(" | "));
