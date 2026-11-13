@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllPosts, getAllServices, postCategories } from "@/lib/content";
+import { getAllLocations, getAllPosts, getAllServices, postCategories } from "@/lib/content";
 import { absoluteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/contact/", priority: 0.7, freq: "yearly" },
     { path: "/request-quote/", priority: 0.7, freq: "yearly" },
     { path: "/our-process/", priority: 0.5, freq: "yearly" },
+    { path: "/locations/", priority: 0.6, freq: "monthly" },
     { path: "/faqs/", priority: 0.6, freq: "monthly" },
     { path: "/reviews/", priority: 0.5, freq: "monthly" },
     { path: "/blog/", priority: 0.7, freq: "weekly" },
@@ -25,6 +26,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: s.updated || today,
       changeFrequency: "monthly" as const,
       priority: s.kind === "parent" ? 0.9 : 0.8,
+    })),
+    ...getAllLocations().map((l) => ({
+      url: absoluteUrl(`/locations/${l.slug}/`),
+      lastModified: l.updated || today,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
     })),
     ...postCategories.map((c) => ({
       url: absoluteUrl(`/blog/category/${c.key}/`),

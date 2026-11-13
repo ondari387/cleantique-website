@@ -221,6 +221,7 @@ export function Header() {
                 <div className="flex gap-5 font-ui text-[0.95rem] font-semibold">
                   <Link href="/services/" className="text-brand-700 hover:underline">All services</Link>
                   <Link href="/our-process/" className="text-brand-700 hover:underline">How we work</Link>
+                  <Link href="/locations/" className="text-brand-700 hover:underline">Areas we serve</Link>
                   <Link href="/request-quote/" className="text-brand-700 hover:underline">Request a quote</Link>
                 </div>
               </div>
@@ -289,6 +290,9 @@ export function Header() {
                 </li>
               ),
             )}
+            <li>
+              <Link href="/locations/" className="block py-3 font-ui text-lg font-semibold text-ink">Areas we serve</Link>
+            </li>
             <li>
               <Link href="/faqs/" className="block py-3 font-ui text-lg font-semibold text-ink">FAQs</Link>
             </li>

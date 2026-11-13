@@ -1,5 +1,6 @@
 import Link from "next/link";
 import divisions from "@content/divisions.json";
+import { getAllLocations } from "@/lib/content";
 import { Logo } from "./Logo";
 import { Icon } from "./Icon";
 import { site, telHref, mailHref, whatsappHref, serviceWhatsappMessage } from "@/lib/site";
@@ -11,6 +12,7 @@ function fmtTime(t: string) {
 
 export function Footer() {
   const year = new Date().getFullYear();
+  const linkedAreas = new Map(getAllLocations().map((l) => [l.name, l.slug]));
   return (
     <footer className="bg-brand-900 text-white/80">
       <div className="container grid gap-12 py-16 lg:grid-cols-[1.2fr_2fr]">
@@ -85,8 +87,22 @@ export function Footer() {
             </ul>
           </div>
           <div className="sm:col-span-2 lg:col-span-2">
-            <p className="font-ui font-semibold text-white">Areas we serve</p>
-            <p className="mt-4 text-[0.95rem] leading-relaxed">{site.serviceAreas.join(", ")} and nearby. Ask us about locations not listed.</p>
+            <p className="font-ui font-semibold text-white">
+              <Link href="/locations/" className="hover:text-brand-200">Areas we serve</Link>
+            </p>
+            <p className="mt-4 text-[0.95rem] leading-relaxed">
+              {site.serviceAreas.map((a, i) => (
+                <span key={a}>
+                  {linkedAreas.has(a) ? (
+                    <Link href={`/locations/${linkedAreas.get(a)}/`} className="underline-offset-4 hover:text-white hover:underline">{a}</Link>
+                  ) : (
+                    a
+                  )}
+                  {i < site.serviceAreas.length - 1 ? ", " : ""}
+                </span>
+              ))}{" "}
+              and nearby. Ask us about locations not listed.
+            </p>
           </div>
         </div>
       </div>

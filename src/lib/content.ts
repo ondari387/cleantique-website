@@ -221,6 +221,54 @@ export function getPage(slug: string): MdPage {
   };
 }
 
+export type LocationTestimonial = { name: string; area: string; service: string; text: string };
+
+export type Location = {
+  slug: string;
+  name: string;
+  seoTitle: string;
+  description: string;
+  h1: string;
+  lede: string;
+  image: string;
+  highlights: string[];
+  testimonial: LocationTestimonial | null;
+  updated: string;
+  html: string;
+  toc: TocItem[];
+};
+
+let locationsCache: Location[] | null = null;
+
+export function getAllLocations(): Location[] {
+  if (locationsCache) return locationsCache;
+  locationsCache = readDir("locations")
+    .map(({ raw, file }) => {
+      const { data, content } = matter(raw);
+      const { html, toc } = renderMarkdown(content);
+      return {
+        slug: String(data.slug || file.replace(/\.md$/, "")),
+        name: String(data.name),
+        seoTitle: String(data.seoTitle),
+        description: String(data.description),
+        h1: String(data.h1),
+        lede: String(data.lede),
+        image: String(data.image),
+        highlights: data.highlights || [],
+        testimonial: (data.testimonial ?? null) as LocationTestimonial | null,
+        updated: asDate(data.updated),
+        html,
+        toc,
+      } satisfies Location;
+    })
+    .sort((a, b) => a.name.localeCompare(b.name));
+  return locationsCache;
+}
+
+export function getLocation(slug: string) {
+  return getAllLocations().find((l) => l.slug === slug);
+}
+
 export function readJson<T>(file: string): T {
   return JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, file), "utf8")) as T;
 }
