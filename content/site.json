@@ -1,7 +1,7 @@
 {
   "name": "Cleantique Solutions",
   "shortName": "Cleantique",
-  "url": "https://cleantique.co.ke",
+  "url": "https://www.cleantique.co.ke",
   "tagline": "Your trusted partner for cleaner spaces, pest-free environments, seamless moves and reliable logistics.",
   "phone": "+254793329293",
   "phoneDisplay": "+254 793 329 293",
@@ -15,9 +15,34 @@
   },
   "mapsUrl": "https://maps.app.goo.gl/2TWiaf3DBfx5HQNy9",
   "hours": [
-    { "days": "Monday – Friday", "open": "09:00", "close": "18:00", "schema": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"] },
-    { "days": "Saturday", "open": "09:00", "close": "16:00", "schema": ["Saturday"] },
-    { "days": "Sunday", "open": "09:00", "close": "16:00", "schema": ["Sunday"] }
+    {
+      "days": "Monday \u2013 Friday",
+      "open": "09:00",
+      "close": "18:00",
+      "schema": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "days": "Saturday",
+      "open": "09:00",
+      "close": "16:00",
+      "schema": [
+        "Saturday"
+      ]
+    },
+    {
+      "days": "Sunday",
+      "open": "09:00",
+      "close": "16:00",
+      "schema": [
+        "Sunday"
+      ]
+    }
   ],
   "serviceAreas": [
     "Westlands",
