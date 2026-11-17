@@ -2,7 +2,7 @@
 slug: goods-transport-cost-kenya
 title: "What Affects the Cost of Goods Transportation in Kenya?"
 seoTitle: "What Affects the Cost of Goods Transport in Kenya?"
-description: "The factors behind the price of moving goods in Kenya, from distance, weight and volume to loading, access and timing, and how to save."
+description: "What actually decides a goods transport quote in Kenya - distance, weight, access and timing - and practical ways to bring the cost down."
 category: transport-logistics
 date: 2026-10-21
 author: Cleantique Solutions

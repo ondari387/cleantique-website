@@ -62,6 +62,7 @@ export type Post = {
   services: string[];
   related: string[];
   featured: boolean;
+  faqs: Faq[];
   html: string;
   toc: TocItem[];
   wordCount: number;
@@ -79,6 +80,34 @@ function readDir(sub: string) {
 
 function countWords(md: string) {
   return md.replace(/[#>*_|`\-]/g, " ").split(/\s+/).filter(Boolean).length;
+}
+
+/**
+ * Pulls {q, a} pairs out of a post's own "## Frequently asked questions"
+ * section (every post has one, written as plain prose) for FAQPage schema -
+ * no separate content to maintain, and no risk of schema drifting from what
+ * the page actually shows.
+ */
+function extractFaqs(markdown: string): Faq[] {
+  const start = markdown.match(/^##\s+Frequently asked questions\s*$/m);
+  if (!start || start.index === undefined) return [];
+  let section = markdown.slice(start.index + start[0].length);
+  const nextH2 = section.match(/^##\s+\S/m);
+  if (nextH2 && nextH2.index !== undefined) section = section.slice(0, nextH2.index);
+  const parts = section.split(/^###\s+/m).slice(1);
+  const faqs: Faq[] = [];
+  for (const part of parts) {
+    const nl = part.indexOf("\n");
+    if (nl === -1) continue;
+    const q = part.slice(0, nl).trim();
+    let a = part.slice(nl + 1).trim();
+    a = a.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
+    a = a.replace(/\*\*([^*]+)\*\*/g, "$1");
+    a = a.replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, "$1");
+    a = a.replace(/\s+/g, " ").trim();
+    if (q && a) faqs.push({ q, a });
+  }
+  return faqs;
 }
 
 function asDate(v: unknown): string {
@@ -157,6 +186,7 @@ export function getAllPosts(): Post[] {
         services: data.services || [],
         related: data.related || [],
         featured: Boolean(data.featured),
+        faqs: extractFaqs(content),
         html,
         toc,
         wordCount: words,

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPosts, getAllServices, getPost, getRelatedPosts, postCategories } from "@/lib/content";
 import { getImage } from "@/lib/images";
-import { articleSchema, buildMetadata } from "@/lib/seo";
+import { articleSchema, buildMetadata, faqSchema } from "@/lib/seo";
 import { serviceWhatsappMessage, whatsappHref } from "@/lib/site";
 import { LinkButton } from "@/components/Button";
 import { Breadcrumbs, CtaBand, ImageCard, JsonLd, PostCard, Prose, Toc } from "@/components/ui";
@@ -56,6 +56,7 @@ export default async function PostPage({ params }: { params: Promise<Params> }) 
           author: post.author,
         })}
       />
+      {post.faqs.length > 0 && <JsonLd data={faqSchema(post.faqs)} />}
       <article>
         <header className="border-b border-line bg-paper">
           <div className="container py-10 md:py-14">
