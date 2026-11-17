@@ -108,7 +108,12 @@ export function Footer() {
       </div>
       <div className="border-t border-white/10">
         <div className="container flex flex-col gap-3 py-6 text-sm sm:flex-row sm:items-center sm:justify-between">
-          <p>© {year} Cleantique Solutions. All rights reserved.</p>
+          <p>
+            © {year} Cleantique Solutions. All rights reserved.{" "}
+            <a href="https://bravura.co.ke" target="_blank" rel="noopener" className="underline-offset-4 hover:text-white hover:underline">
+              Site by Bravura
+            </a>
+          </p>
           <ul className="flex gap-6">
             <li><Link href="/privacy-policy/" className="hover:text-white">Privacy policy</Link></li>
             <li><Link href="/terms-of-service/" className="hover:text-white">Terms of service</Link></li>
