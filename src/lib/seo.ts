@@ -74,6 +74,7 @@ export function organizationSchema() {
         logo: absoluteUrl("/brand/cleantique-logo-full-transparent.png"),
         email: site.email,
         telephone: site.phone,
+        ...(site.social.length > 0 ? { sameAs: site.social.map((s) => s.url) } : {}),
       },
       {
         "@type": "LocalBusiness",

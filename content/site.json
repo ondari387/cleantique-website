@@ -62,7 +62,23 @@
     "Kikuyu",
     "Ngong"
   ],
-  "social": [],
+  "social": [
+    {
+      "platform": "instagram",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/cleantiquesolutionske/"
+    },
+    {
+      "platform": "tiktok",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@cleantique2"
+    },
+    {
+      "platform": "facebook",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/share/14xKMiv27NS/"
+    }
+  ],
   "analytics": {
     "gtmId": "GTM-W6H9BJJW",
     "ga4Id": "G-S8NSBKQZ35",

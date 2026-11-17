@@ -2,7 +2,7 @@ import Link from "next/link";
 import divisions from "@content/divisions.json";
 import { getAllLocations } from "@/lib/content";
 import { Logo } from "./Logo";
-import { Icon } from "./Icon";
+import { Icon, type IconName } from "./Icon";
 import { site, telHref, mailHref, whatsappHref, serviceWhatsappMessage } from "@/lib/site";
 
 function fmtTime(t: string) {
@@ -44,6 +44,23 @@ export function Footer() {
               <Icon name="pin" className="h-5 w-5 text-brand-300" /> Nairobi, Kenya
             </li>
           </ul>
+          {site.social.length > 0 && (
+            <ul className="mt-6 flex gap-4">
+              {site.social.map((s) => (
+                <li key={s.platform}>
+                  <a
+                    href={s.url}
+                    target="_blank"
+                    rel="noopener"
+                    aria-label={s.label}
+                    className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 text-white/80 hover:border-white/40 hover:text-white"
+                  >
+                    <Icon name={s.platform as IconName} className="h-4 w-4" />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
           <div className="mt-6">
             <p className="font-ui text-sm font-semibold text-white">Opening hours</p>
             <dl className="mt-2 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-[0.95rem]">
