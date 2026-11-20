@@ -8,6 +8,10 @@ seoTitle: "Mosquito Control & Fumigation in Nairobi | Cleantique"
 description: "Mosquito control in Nairobi: breeding-site survey, indoor residual spraying and outdoor fogging where it helps, plus a practical prevention plan."
 h1: "Mosquito Control Services in Nairobi"
 lede: "Spraying kills the mosquitoes biting you tonight. Dealing with the water they breed in is what keeps them away. We survey your compound first, then treat indoors and outdoors as needed and show you exactly what to fix."
+quickAnswer: >-
+  Cleantique controls mosquitoes in Nairobi by first surveying the compound for breeding sites, then applying indoor
+  residual spraying and outdoor fogging where needed, and showing you what to fix so mosquitoes do not simply come
+  back after spraying.
 image: mosquito-feeding-on-skin
 gallery: [outdoor-mosquito-fogging-treatment, pest-control-worker-spraying-building]
 highlights: [Breeding-site survey first, Indoor residual spraying, Outdoor fogging where useful]

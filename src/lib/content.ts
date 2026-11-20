@@ -26,6 +26,7 @@ export type ServicePage = {
   description: string;
   h1: string;
   lede: string;
+  quickAnswer: string;
   image: string;
   gallery: string[];
   highlights: string[];
@@ -137,6 +138,7 @@ export function getAllServices(): ServicePage[] {
         description: String(data.description),
         h1: String(data.h1),
         lede: String(data.lede),
+        quickAnswer: String(data.quickAnswer || data.lede),
         image: String(data.image),
         gallery: data.gallery || [],
         highlights: data.highlights || [],

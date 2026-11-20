@@ -8,6 +8,10 @@ seoTitle: "Office Cleaning Services in Nairobi | Cleantique Solutions"
 description: "Office cleaning in Nairobi done outside working hours to a written scope. Daily, weekly or scheduled commercial cleaning with quality checks."
 h1: "Office and Commercial Cleaning Services in Nairobi"
 lede: "Scheduled office cleaning done outside your working hours, to a written scope, with quality checks built in. Your team arrives to a clean office and the cleaning stays consistent month after month."
+quickAnswer: >-
+  Cleantique's office cleaning in Nairobi is scheduled outside your working hours, against a written scope, with
+  quality checks built in so standards stay consistent month after month. Your team arrives to a clean office without
+  disruption to the working day.
 image: modern-office-lounge-interior
 gallery: [gloved-hand-wiping-cabinet-handle, cleaner-holding-cleaning-supplies]
 highlights: [Out-of-hours scheduling, Written scope and schedule, Quality checks and reviews]

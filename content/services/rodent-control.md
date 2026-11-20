@@ -8,6 +8,10 @@ seoTitle: "Rat & Rodent Control in Nairobi | Cleantique Solutions"
 description: "Rat and mouse control in Nairobi homes, offices and stores: entry-point proofing, tamper-resistant bait stations, carcass removal and a check visit."
 h1: "Rat and Rodent Control in Nairobi"
 lede: "Rats and mice chew cables, contaminate food and breed faster than most people expect. Baiting removes the rodents inside today. Finding and closing the gaps they use is what stops the next ones."
+quickAnswer: >-
+  Cleantique's rodent control in Nairobi starts with a survey of entry points, then tamper-resistant bait stations,
+  carcass removal and a check visit. The goal is removing rats or mice now and proofing the gaps they use so they do
+  not return.
 image: rat-on-wooden-floor
 gallery: [brown-rat-foraging-outdoors, pest-control-worker-spraying-building]
 highlights: [Entry-point survey and proofing, Tamper-resistant bait stations, Carcass removal and check visit]

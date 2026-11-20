@@ -8,6 +8,10 @@ seoTitle: "Office Relocation in Nairobi | Office Movers | Cleantique"
 description: "Office relocation in Nairobi planned around your reopening: site visits, labelling to the new floor plan, IT kept together and out-of-hours moves."
 h1: "Office Relocation Services in Nairobi"
 lede: "The measure of an office move is whether your team can work on Monday morning. We plan backwards from your reopening, label everything to the new floor plan, and move outside your working hours."
+quickAnswer: >-
+  Cleantique's office relocation in Nairobi is planned backwards from your reopening date, with evening, overnight or
+  weekend moves so your team can work on Monday morning. Everything is labelled to the new floor plan and IT equipment
+  is kept together.
 image: modern-office-lounge-interior
 gallery: [packed-boxes-and-covered-sofa-house-move, delivery-truck-at-loading-bay]
 highlights: ["Evening, overnight and weekend moves", "Labelled to the new floor plan", "IT equipment kept together"]

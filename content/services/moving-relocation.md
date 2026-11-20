@@ -8,6 +8,10 @@ seoTitle: "Movers in Nairobi | Home & Office Relocation | Cleantique"
 description: "Professional movers in Nairobi for house moves and office relocation. Survey first, written quote, packing, labelled boxes and reassembly."
 h1: "Professional Moving and Relocation Services in Nairobi"
 lede: "Moving is stressful because of the unknowns, not the lifting. We remove the unknowns with a survey, a written quote, a confirmed date and a moving day planned around access, packing and what has to work at the other end."
+quickAnswer: >-
+  Cleantique handles home and office moves in Nairobi with a survey before quoting, a written price and confirmed
+  date, and the option to combine the move with cleaning and fumigation in one booking so the old and new place are
+  both ready.
 image: movers-loading-boxes-into-truck
 gallery: [packed-boxes-and-covered-sofa-house-move, couple-unpacking-boxes-new-home]
 highlights: ["Survey before quoting", "Written price and date", "Move, clean and fumigation in one booking"]
@@ -17,7 +21,7 @@ related:
   - /services/cleaning/residential-cleaning/
   - /services/pest-control/bed-bug-control/
   - /services/transport-logistics/
-posts: [house-movers-cost-nairobi, house-moving-checklist-nairobi, choose-moving-company-nairobi]
+posts: [best-movers-nairobi, house-movers-cost-nairobi, house-moving-checklist-nairobi]
 faqs:
   - q: How far in advance should I book a move?
     a: >-

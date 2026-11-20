@@ -8,6 +8,10 @@ seoTitle: "Cleaning Services in Nairobi | Homes & Offices | Cleantique"
 description: "Professional cleaning in Nairobi for homes, offices and new builds. Routine and deep cleans, office contracts and post-construction cleans to a written checklist."
 h1: "Professional Cleaning Services in Nairobi"
 lede: "Homes, offices and newly built or renovated properties each need a different kind of clean. We agree a written checklist before we start, bring the equipment and materials, and come back to put right anything in scope that was missed."
+quickAnswer: >-
+  Cleantique's professional cleaning covers residential, office and post-construction jobs in Nairobi, each against a
+  written checklist agreed before work starts. The team brings its own equipment and materials, and returns to fix
+  anything in scope that was missed, at no extra cost.
 image: mop-and-cleaning-supplies-on-tiled-floor
 gallery: [cleaning-team-in-kitchen-wide]
 highlights: [Written checklist agreed first, Equipment and materials provided, In-scope misses fixed at no cost]
@@ -17,7 +21,7 @@ related:
   - /services/pest-control/
   - /services/moving-relocation/home-moving/
   - /services/pest-control/cockroach-control/
-posts: [cleaning-services-cost-nairobi, deep-cleaning-vs-regular-cleaning, prepare-home-for-professional-cleaning]
+posts: [best-cleaning-company-nairobi, cleaning-services-cost-nairobi, deep-cleaning-vs-regular-cleaning]
 faqs:
   - q: Do you bring your own cleaning materials and equipment?
     a: >-

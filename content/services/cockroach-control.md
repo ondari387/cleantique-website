@@ -8,6 +8,10 @@ seoTitle: "Cockroach Control & Fumigation in Nairobi | Cleantique"
 description: "Cockroach control for Nairobi homes, flats and restaurants. We treat where they breed with gel bait and residual products, with a review visit included."
 h1: "Cockroach Control and Fumigation in Nairobi"
 lede: "Cockroaches breed behind cabinets, inside drains and under the cooker, not in the open where you see them at night. We treat where they live, use bait that spreads through the colony, and come back to check the result."
+quickAnswer: >-
+  Cleantique treats cockroach infestations in Nairobi with gel baiting that spreads through the colony plus a residual
+  treatment, placed safely around food areas. A review visit is included to confirm the result. Get a written quote
+  after a quick inspection via WhatsApp +254 793 329 293.
 image: cockroach-on-kitchen-floor
 gallery: [technician-applying-indoor-pest-treatment, cleaner-scrubbing-kitchen-counter]
 highlights: [Gel bait plus residual treatment, Food-area safe placement, Review visit included]

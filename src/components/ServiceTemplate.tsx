@@ -27,7 +27,7 @@ export function ServiceTemplate({ service }: { service: ServicePage }) {
 
   return (
     <>
-      <JsonLd data={serviceSchema({ name: service.h1, description: service.description, path: service.path, serviceType: service.title, image: service.image })} />
+      <JsonLd data={serviceSchema({ name: service.h1, description: service.quickAnswer || service.description, path: service.path, serviceType: service.title, image: service.image })} />
       {service.faqs.length > 0 && <JsonLd data={faqSchema(service.faqs)} />}
 
       {/* Hero */}
@@ -41,6 +41,12 @@ export function ServiceTemplate({ service }: { service: ServicePage }) {
             </p>
             <h1 className="mt-3 font-display text-display-lg font-semibold text-ink">{service.h1}</h1>
             <p className="mt-5 max-w-2xl text-lg leading-relaxed text-muted">{service.lede}</p>
+            {service.quickAnswer && (
+              <div className="mt-6 max-w-2xl rounded-card border border-brand-200 bg-brand-50 p-5">
+                <p className="font-ui text-[0.8rem] font-semibold uppercase tracking-wide text-brand-700">Quick answer</p>
+                <p className="mt-2 text-[0.98rem] leading-relaxed text-ink">{service.quickAnswer}</p>
+              </div>
+            )}
             {service.highlights.length > 0 && (
               <ul className="mt-6 flex flex-wrap gap-2">
                 {service.highlights.map((h) => (

@@ -8,6 +8,10 @@ seoTitle: "House Cleaning Services in Nairobi | Cleantique Solutions"
 description: "Residential cleaning in Nairobi for houses, flats and rentals: deep cleans, weekly or fortnightly cleaning and move-out cleans against a written checklist."
 h1: "Residential and House Cleaning Services in Nairobi"
 lede: "Deep cleans, regular upkeep and move-in or move-out cleans for houses, flats, apartments and short-term rentals. You see the room-by-room checklist before we start, and we bring the equipment and materials."
+quickAnswer: >-
+  Cleantique's residential cleaning in Nairobi covers deep cleans, regular upkeep, and move-in or move-out cleans for
+  houses, flats and short-term rentals. You see a room-by-room checklist before work starts, and the team brings its
+  own equipment and cleaning materials.
 image: cleaner-vacuuming-living-room
 gallery: [steam-cleaning-sofa-upholstery, cleaner-dusting-shelves]
 highlights: ["Deep, regular or move-in/out cleans", "Checklist agreed in advance", "Equipment and materials provided"]

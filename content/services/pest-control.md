@@ -8,6 +8,10 @@ seoTitle: "Pest Control & Fumigation Services in Nairobi | Cleantique"
 description: "Fumigation and pest control in Nairobi for cockroaches, bed bugs, mosquitoes and rodents. Inspection first, written re-entry times, follow-up included."
 h1: "Professional Pest Control and Fumigation Services in Nairobi"
 lede: "Cockroaches in the kitchen, bed bugs in the bedroom, mosquitoes at night or rats in the ceiling each need a different method and a different follow-up. We inspect first, explain what we will use and how long to stay out, and build the follow-up visit into the price."
+quickAnswer: >-
+  Cleantique provides pest control and fumigation in Nairobi for cockroaches, bed bugs, mosquitoes and rodents,
+  including car fumigation. Every job starts with an inspection, a written product and re-entry time, and a follow-up
+  visit built into the quote. Serves Nairobi and surrounding towns; WhatsApp +254 793 329 293 for a free quote.
 image: technician-thermal-fogging-courtyard
 gallery: [fumigation-technician-protective-suit, technician-applying-indoor-pest-treatment]
 highlights: [Inspection before treatment, Product and re-entry time in writing, Follow-up included in the quote]
@@ -17,7 +21,7 @@ related:
   - /services/cleaning/residential-cleaning/
   - /services/moving-relocation/home-moving/
   - /services/cleaning/office-cleaning/
-posts: [fumigation-cost-nairobi, how-often-pest-control, how-to-get-rid-of-bed-bugs-kenya]
+posts: [best-pest-control-company-nairobi, fumigation-cost-nairobi, how-often-pest-control]
 faqs:
   - q: Is fumigation safe for children and pets?
     a: >-

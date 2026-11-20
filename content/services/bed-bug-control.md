@@ -8,6 +8,10 @@ seoTitle: "Bed Bug Fumigation & Control in Nairobi | Cleantique"
 description: "Bed bug control in Nairobi: thorough inspection, two treatments 10 to 14 days apart, a preparation checklist and discreet visits. Get a free quote."
 h1: "Bed Bug Control and Fumigation in Nairobi"
 lede: "Bed bugs are the hardest household pest to clear and the one most often treated badly. We inspect the whole room, treat the bed, frame, furniture and skirting, and return 10 to 14 days later for the visit that catches the newly hatched bugs."
+quickAnswer: >-
+  Cleantique clears bed bugs in Nairobi homes with a full-room inspection, treatment of the bed, frame, furniture and
+  skirting, and a second visit 10 to 14 days later to catch newly hatched bugs. Two treatments are included in the
+  quote, with a preparation checklist provided beforehand.
 image: bed-bug-on-bedding-close-up
 gallery: [bed-bug-treatment-in-bedroom, technician-vacuuming-cushion]
 highlights: [Two treatments included, Preparation checklist provided, Discreet arrival on request]

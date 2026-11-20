@@ -8,6 +8,10 @@ seoTitle: "Car Fumigation & Interior Pest Treatment in Nairobi"
 description: "Car fumigation in Nairobi for cockroaches, bed bugs and odour in private cars, taxis and fleet vehicles, with a re-entry time you can plan around."
 h1: "Car Fumigation and Interior Pest Treatment in Nairobi"
 lede: "Cockroaches and bed bugs get into vehicles the same way they get into buildings: in bags, boxes and second-hand items, and once inside a car's tight, warm interior they are hard to shift with a shop-bought spray. We treat the cabin, boot and upholstery, and tell you exactly when it is safe to drive again."
+quickAnswer: >-
+  Cleantique fumigates car interiors in Nairobi (cabin, boot and upholstery) to clear cockroaches and bed bugs that
+  get in through bags, boxes or second-hand items. Private, taxi and fleet vehicles are treated, with a confirmed re-
+  entry time before you drive off.
 image: fumigation-technician-protective-suit
 gallery: [technician-applying-indoor-pest-treatment, german-cockroach-close-up]
 highlights: [Cabin, boot and upholstery treated, Private, taxi and fleet vehicles, Re-entry time confirmed before you drive off]

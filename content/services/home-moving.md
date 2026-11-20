@@ -8,6 +8,10 @@ seoTitle: "House Movers in Nairobi | Home Moving Services | Cleantique"
 description: "House movers in Nairobi for bedsitters to family homes: survey, written quote, packing materials, furniture protection, dismantling and reassembly."
 h1: "House Moving Services in Nairobi"
 lede: "From a bedsitter in South B to a four-bedroom house in Runda, we survey first, give you a written price, protect your furniture, label every box by room and reassemble what we took apart."
+quickAnswer: >-
+  Cleantique moves houses in Nairobi, from bedsitters to four-bedroom homes, with a survey of both properties, a
+  written price, furniture protection, boxes labelled by room, and reassembly at the new place. Packing service is
+  available on request.
 image: couple-unpacking-boxes-new-home
 gallery: [movers-loading-boxes-into-truck, packed-boxes-and-covered-sofa-house-move]
 highlights: [Survey of both properties, Packing service available, Reassembly at the other end]

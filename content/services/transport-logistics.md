@@ -8,6 +8,10 @@ seoTitle: "Transport & Logistics Services in Nairobi | Cleantique"
 description: "Goods transport and logistics in Nairobi: one-off deliveries, scheduled distribution, collection and delivery coordination and contract runs."
 h1: "Transport and Logistics Services in Nairobi and Kenya"
 lede: "Goods moved with a confirmed collection window, a vehicle matched to the load, one contact for the job and confirmation when it is delivered. General goods, carried by people who tell you plainly what they can and cannot take."
+quickAnswer: >-
+  Cleantique provides goods transport and logistics in Nairobi and Kenya with a vehicle matched to the load, a
+  confirmed collection window, one contact for the job, and delivery confirmation when goods arrive. Covers one-off
+  deliveries, scheduled runs and business distribution.
 image: truck-on-nairobi-expressway
 gallery: [delivery-truck-at-loading-bay, cargo-truck-on-open-highway]
 highlights: [Vehicle matched to the load, Confirmed collection windows, Delivery confirmation]
